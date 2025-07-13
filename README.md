@@ -1,6 +1,6 @@
-# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+# The Voidrice (Luke Smith <https://github.com/Hackcodepro>'s dotfiles)
 
-These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
+These are the dotfiles deployed by [LARBS](https://github.com/Hackcodepro) and as seen on
 [my YouTube channel](https://youtube.com/c/lukesmithxyz).
 
 - Very useful scripts are in `~/.local/bin/`
@@ -9,7 +9,7 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
 	- zsh (shell)
 	- lf (file manager)
 	- mpd/ncmpcpp (music)
-	- nsxiv (image/gif viewer)
+	- sxiv (image/gif viewer)
 	- mpv (video player)
 	- other stuff like xdg default programs, inputrc and more, etc.
 - I try to minimize what's directly in `~` so:
@@ -23,26 +23,28 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
 
 These dotfiles are intended to go with numerous suckless programs I use:
 
-- [dwm](https://github.com/lukesmithxyz/dwm) (window manager)
-- [dwmblocks](https://github.com/lukesmithxyz/dwmblocks) (statusbar)
-- [st](https://github.com/lukesmithxyz/st) (terminal emulator)
+- [dwm](https://github.com/Hackcodepro/dwm) (window manager)
+- [dwmblocks](https://github.com/Hackcodepro/dwmblocks) (statusbar)
+- [st](https://github.com/Hackcodepro/st) (terminal emulator)
 
 I also recommend trying out
-[mutt-wizard](https://github.com/lukesmithxyz/mutt-wizard), which additionally
+[mutt-wizard](), which additionally
 works with this setup. It gives you an easy-to-install terminal-based email
 client regardless of your email provider. It is integrated into these dotfiles
 as well.
 
 ## Install these dotfiles and all dependencies
 
-Use [LARBS](https://larbs.xyz) to autoinstall everything:
+Use [LARBS](https://github.com/Hackcodepro) to autoinstall everything:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+git clone https://github.com/Hackcodepro/LARBS.git
+cd LARBS
+sh larbs.sh
 ```
 
 or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/LukeSmithxyz/LARBS/blob/master/static/progs.csv).
+[dependencies](https://raw.githubusercontent.com/Hackcodepro/LARBS/main/progs.csv).
 
 ## Default Desktop Artwork
 
